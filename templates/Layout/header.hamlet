@@ -1,0 +1,30 @@
+<div class="container-fluid p-0 m-0 bg-dark">
+    <nav class="navbar navbar-expand-lg " id="menu_princ">
+        <button class="navbar-toggler colorBranco" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon colorBranco pt-1 ">
+                &#9776
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="@{HomeR}">
+                    Home <span class="sr-only">(Página atual)
+                <a class="nav-item nav-link" href=@{FotoR}>
+                    Fotos
+                <a class="nav-item nav-link" href="@{CrossR}">
+                    Crowdfunding
+                <a class="nav-item nav-link " href="home#contato">
+                    Contato
+
+<div class="container-fluid bg-dark pb-5">
+  <div class="row justify-content-center pt-5 ">
+    <img src="https://www.rpasistemas.com.br/old-mobile/public/assets/img/oldMobile5.png"/>
+  <div class="row justify-content-center mt-4 colorBranco">
+    <h1>
+      OLD-MOBILE
+  <div class="row justify-content-center mt-2 colorBranco p-2 p-md-0 text-center">
+    <h3>
+      UM NOVO CONCEITO EM MOBILIDADE
+  <div class="row justify-content-center mt-4 colorBranco">
+    <a class="bt-chamada" href="home#cross">
+      CROWDFUNDING  

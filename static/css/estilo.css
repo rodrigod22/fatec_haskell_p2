@@ -1,0 +1,164 @@
+
+*{margin: 0; padding: 0;}
+ 
+
+/*@font-face {*/
+/*    src: url(../fontes/qhyts.ttf);*/
+/*    font-family: 'qhyts';       */
+/*} */
+
+@font-face {
+    src: url(https://fonts.googleapis.com/css?family=Roboto);
+    font-family: 'Roboto', sans-serif;    
+} 
+
+
+/**estilos***/
+.colorBranco{
+    color: #FFF;
+}
+.colorAzul{
+    color: #0062cc;
+}
+
+.colorLaranja{
+      color: #FF7D00;
+}
+
+
+.laranja{
+    background-color: #FF7D00;
+}
+
+.bg-branco {
+  background-color: #FFF;
+
+  width: 300px !important;
+  min-width: 300px !important;
+}
+
+
+/*NAV**/
+
+#menu_princ{
+    background-color: #FF7D00;
+    color: #FFF;  
+    padding: 0;
+}
+
+
+
+#menu_princ a{
+  color: #FFF;
+  font-size: 1.2em;
+  padding: 0.7em;
+}
+
+#menu_princ a:hover{
+  color: #FFF;
+  font-size: 1.2em;
+  background-color:chocolate;
+ padding: 0.7em;
+}
+
+
+
+
+.bt-chamada{
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#ff7b00 0%,
+		#ff7b00);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ff7b00),
+		to(#ff7b00));
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	border: 0px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 2px rgba(000,000,000,0.6),
+		0px 1px 8px rgba(255,255,255,0);
+        cursor: pointer;
+
+}
+
+.bt-chamada:hover{
+ background:chocolate;
+ color: #FFF;
+ text-decoration: none;
+ 
+}
+
+.bgimg{
+   
+    background-repeat:round;
+    background-position-x: 400px;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: -1;
+}
+#img-config{
+    background-image: url("https://www.rpasistemas.com.br/old-mobile/public/assets/img/config.png") ;
+   
+}
+
+.especificacao {
+font-size: 1.3em;
+text-decoration: none;
+list-style: none;
+}
+
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  font-size: 24px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden; 
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0.8) ;
+  visibility: hidden;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  vertical-align: middle;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.cd-top a:hover{
+     color: #042f21 !important;
+}
+
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .8;
+}

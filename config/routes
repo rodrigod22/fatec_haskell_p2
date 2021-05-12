@@ -4,3 +4,7 @@
 /robots.txt RobotsR GET
 
 / HomeR GET 
+
+/fotos FotoR GET 
+
+/cross CrossR GET 

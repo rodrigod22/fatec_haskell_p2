@@ -1,0 +1,124 @@
+<div class="container-fluid bg-light justify-content-center pb-5">
+  <div class="row justify-content-center pt-5 mb-5 p-2 p-md-0 pt-md-5 text-center">
+    <h2>
+      PLATAFORMA ELÉTRICA OLD-MOBILE
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-10 col-md-4 col-lg-3 bg-branco m-3">
+        <div class="justify-content-center text-center mt-4">
+          <img src="https://www.rpasistemas.com.br/old-mobile/public/assets/img/icon-seg2.svg" alt="Logo" />
+        <div class="justify-content-center text-center mt-4 colorAzul">
+          <h4>
+            SEGURANÇA        
+        <div class="justify-content-center mt-4 p-2 pb-5">
+          <div class="col justify-content-center text-justify">
+            <div class="row flex-nowrap mb-4">
+              <i class="fas fa-check pt-2">
+              <span class="pl-4">
+                Torque baixo e aceleração suave           
+            <div class="row flex-nowrap mb-4">
+              <i class="fas fa-check  pt-2">
+              <span class="pl-4">
+                Rodas de 16" em alumínio para melhor absorção de irregularidades          
+            <div class="row flex-nowrap mb-4">
+              <i class="fas fa-check  pt-2">
+              <span class="pl-4">
+                Sensores de proximidades, evitando colisões         
+      <div class="col-10 col-md-4 col-lg-3 bg-branco m-3">
+        <div class="justify-content-center text-center mt-4">
+          <img src="https://www.rpasistemas.com.br/old-mobile/public/assets/img/icon-seg2.svg" alt="Logo" />
+        <div class="justify-content-center text-center mt-4 colorAzul">
+          <h4>
+            PRATICIDADE        
+        <div class=" mt-4 p-2  pb-5 ">
+          <div class="col text-justify ">
+            <div class="row flex-nowrap mb-4">
+              <i class="fas fa-check  pt-2">
+              <span class="pl-4">
+                100% elétrico 
+            <div class="row flex-nowrap mb-4">
+              <i class="fas fa-check  pt-2">
+              <span class="pl-4">
+                Navegação via GPS            
+            <div class="row flex-nowrap mb-4">
+              <i class="fas fa-check  pt-2">
+              <span class="pl-4">
+                Guidão com regulagem de altura 
+            <div class="row flex-nowrap mb-4">
+              <i class="fas fa-check pt-2">
+              <span class="pl-4">
+                Assento com regulagem de altura 
+      <div class="col-10 col-md-4 col-lg-3 bg-branco m-3">
+        <div class="justify-content-center text-center mt-4">
+          <img src="https://www.rpasistemas.com.br/old-mobile/public/assets/img/icon-seg2.svg" alt="Logo" />
+        <div class="justify-content-center text-center mt-4 colorAzul">
+          <h4>
+            LAZER       
+        <div class="justify-content-center  mt-4 p-2  pb-5">
+          <div class="col justify-content-center text-justify ">
+            <div class="row flex-nowrap mb-4">
+              <i class="fas fa-check pt-2"> 
+              <span class="pl-4">
+                Fácil utilização e ideal para pequenos trajetos e lazer           
+            <div class="row flex-nowrap mb-4">
+              <i class="fas fa-check pt-2">
+              <span class="pl-4">
+                Possui cesto para volumes, auxiliando nas compras
+            <div class="row flex-nowrap mb-4">
+              <i class="fas fa-check pt-2">
+              <span class="pl-4">
+                Ideal para passeios ao ar livre
+
+<section id="especificacao">
+  <div class="container-fluid" id="img-config">
+    <div class="container justify-content-center pt-4 pb-5">
+      <div class="d-flex flex-column mt-5 mb-4 justify-content-center">
+        <div class="row justify-content-center">
+          <h2>
+            ESPECIFICAÇÕES TÉCNICAS
+        <div class="row pl-5 pt-3">
+          <ul class="especificacao">
+            <li>
+              <i class="fas fa-check mr-4 colorLaranja mb-2"> 
+              <span>
+                Plataforma com carregamento elétrico
+            <li>
+              <i class="fas fa-check mr-4 colorLaranja mb-2"> 
+              <span>
+                Tamanho: 108 x 61 x 74,8 cm.
+            <li>
+              <i class="fas fa-check mr-4 colorLaranja mb-2"> 
+              <span>
+                Tipo de Motor : Elétrico de Corrente Contínua.
+            <li>
+              <i class="fas fa-check mr-4 colorLaranja mb-2">
+              <span>
+                Tensão Nominal do Motor: 24V.
+            <li>
+              <i class="fas fa-check mr-4 colorLaranja mb-2"> 
+              <span>
+                Potência Nominal do Motor: 250W.
+            <li>
+              <i class="fas fa-check mr-4 colorLaranja mb-2">
+              <span>
+                Diametro das Rodas: 16pol.
+            <li>
+              <i class="fas fa-check mr-4 colorLaranja mb-2">
+              <span>
+                Material do Chassi: Alumínio.
+            <li>
+              <i class="fas fa-check mr-4 colorLaranja mb-2">
+              <span>
+                Bateria: 24V 10Ah.
+            <li>
+              <i class="fas fa-check mr-4 colorLaranja mb-2">
+              <span>
+                Autonomia: 30km (Recarga Total em 6 horas).
+            <li>
+              <i class="fas fa-check mr-4 colorLaranja mb-2">
+              <span>
+                Carregador: Bivolt Automático
+            <li>
+              <i class="fas fa-check mr-4 colorLaranja mb-2">
+              <span>
+                Cesta Aramada Dianteira.
