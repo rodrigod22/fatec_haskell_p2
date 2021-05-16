@@ -6,16 +6,16 @@
     <div class="row mb-5">
       <div class="col-12">
         <div class="row justify-content-lg-around justify-content-md-between">
-          <div class="col-12 col-md-3 text-center mb-md-0 mb-3">
-            <img src="https://www.rpasistemas.com.br/old-mobile/public/assets/img/img-produto.png" />          
+          <div class="col-12 col-md-3 text-center mb-md-0 mb-3">             
+            <img src=@{StaticR img_imgProduto_png}>      
           <div class="col-lg-6 col-md-6 text-justify align-self-center ">
             A plataforma elétrica Old-Mobile é recomendada para pessoas idosas com problemas de
             locomoção conta com uma cadeira retrátil, painel com GPS integrado, guidão com regulagem de
-            altura, cesta porta volumes, sistema de trava.     
-
+            altura, cesta porta volumes, sistema de trava.  
     <div class="row mt-5">
       <div class="col-12">
         <div class="row justify-content-around">
-          <img src="https://www.rpasistemas.com.br/old-mobile/public/assets/img/produto3.jpg" class="mb-5" />
-          <img src="https://www.rpasistemas.com.br/old-mobile/public/assets/img/produto2.jpg" class="mb-5" />
-          <img src="https://www.rpasistemas.com.br/old-mobile/public/assets/img/produto4.jpg" class="mb-5" />
+          <img src=@{StaticR img_produto3_jpg} class="mb-5">
+          <img src=@{StaticR img_produto2_jpg} class="mb-5">
+          <img src=@{StaticR img_produto4_jpg} class="mb-5">
+         

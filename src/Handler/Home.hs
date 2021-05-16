@@ -19,7 +19,6 @@ getFotoR = do
     addStylesheet (StaticR css_estilo_css)
     -- toWidgetHead $(luciusFile "templates/Layout/header.julius")
     $(whamletFile "templates/Layout/header.hamlet")
-
     $(whamletFile "templates/Fotos/foto.hamlet")
     $(whamletFile "templates/Layout/footer.hamlet")
 
@@ -33,7 +32,18 @@ getCrossR = do
     $(whamletFile "templates/Cross/cross.hamlet")
     $(whamletFile "templates/Layout/footer.hamlet")
 
-getHomeR :: Handler Html
+getDoacaoR :: Handler Html
+getDoacaoR = do
+  defaultLayout $ do
+    addStylesheet (StaticR css_bootstrap_css)
+    addStylesheet (StaticR css_estilo_css)
+    -- toWidgetHead $(luciusFile "templates/Layout/header.julius")
+    $(whamletFile "templates/Layout/header.hamlet")
+
+    $(whamletFile "templates/Doacao/doacao.hamlet")
+    $(whamletFile "templates/Layout/footer.hamlet")
+
+getHomeR :: Handler Htmlddfdfd
 getHomeR = do
   defaultLayout $ do
     addStylesheet (StaticR css_bootstrap_css)

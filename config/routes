@@ -8,3 +8,5 @@
 /fotos FotoR GET 
 
 /cross CrossR GET 
+
+/doacao DoacaoR GET

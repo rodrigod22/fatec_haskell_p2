@@ -13,8 +13,8 @@
                     Fotos
                 <a class="nav-item nav-link" href="@{CrossR}">
                     Crowdfunding
-                <a class="nav-item nav-link " href="home#contato">
-                    Contato
+                <a class="nav-item nav-link " href="@{DoacaoR}">
+                    Colaboradores
 
 <div class="container-fluid bg-dark pb-5">
   <div class="row justify-content-center pt-5 ">
