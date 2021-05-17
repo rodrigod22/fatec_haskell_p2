@@ -43,7 +43,7 @@ getDoacaoR = do
     $(whamletFile "templates/Doacao/doacao.hamlet")
     $(whamletFile "templates/Layout/footer.hamlet")
 
-getHomeR :: Handler Htmlddfdfd
+getHomeR :: Handler Html
 getHomeR = do
   defaultLayout $ do
     addStylesheet (StaticR css_bootstrap_css)
