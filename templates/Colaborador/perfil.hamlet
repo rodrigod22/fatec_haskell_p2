@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="align-items-center mt-4">
+    <h1>
+      Pagina de #{colaboradorNome colaborador}
+    <h2>
+      Email: #{colaboradorEmail colaborador}
+    <h2>
+      Telefone: #{colaboradorTelefone colaborador}

@@ -10,3 +10,11 @@
 /cross CrossR GET 
 
 /doacao DoacaoR GET
+
+/colaborador ColaboradorR GET POST
+
+/colaborador/perfil/#ColaboradorId PerfilR GET
+
+/colaboradores ListaColabR GET
+
+/colaborador/apagar/#ColaboradorId ApagarColabR POST
