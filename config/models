@@ -3,4 +3,17 @@ Colaborador
     email Text
     telefone Text
     deriving Show
-    
+
+TipoDoacao 
+    valor Double
+    beneficios Text
+    cupons Int   
+    deriving Show
+
+Usuario
+    email Text
+    senha Text
+    UniqueEmailIx email
+    deriving Show 
+
+        

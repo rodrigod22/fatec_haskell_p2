@@ -61,7 +61,25 @@
  padding: 0.7em;
 }
 
+.dropdown-item{
+  color: #000000 !important;
+}
 
+.btn-sair{
+  background-color: #ff7b00;
+  color: #FFF;
+  border: none;
+  padding: 10px;
+  height: 100%;
+}
+
+.btn-sair:hover{
+  background-color: chocolate;
+  color: #FFF;
+  border: none;
+  padding: 10px;
+  height: 100%;
+}
 
 
 .bt-chamada{

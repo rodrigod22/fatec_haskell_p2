@@ -30,15 +30,3 @@
         $nothing
           <a class="nav-item nav-link " href=@{AutR}>
             Login 
-<div class="container-fluid bg-dark pb-5">
-  <div class="row justify-content-center pt-5 ">
-    <img src="https://www.rpasistemas.com.br/old-mobile/public/assets/img/oldMobile5.png"/>
-  <div class="row justify-content-center mt-4 colorBranco">
-    <h1>
-      OLD-MOBILE
-  <div class="row justify-content-center mt-2 colorBranco p-2 p-md-0 text-center">
-    <h3>
-      UM NOVO CONCEITO EM MOBILIDADE
-  <div class="row justify-content-center mt-4 colorBranco">
-    <a class="bt-chamada" href=@{CrossR}>
-      CROWDFUNDING  

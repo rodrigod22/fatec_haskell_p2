@@ -34,7 +34,13 @@ import Database.Persist.Postgresql
 
 import Handler.Colaborador
 import Handler.Common
+import Handler.Cross
+import Handler.Doacao
+import Handler.Foto
 import Handler.Home
+import Handler.Login
+import Handler.TipoDoacao
+import Handler.Usuario
 import Import
 import Language.Haskell.TH.Syntax (qLocation)
 import Network.Wai (Middleware)

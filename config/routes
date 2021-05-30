@@ -18,3 +18,21 @@
 /colaboradores ListaColabR GET
 
 /colaborador/apagar/#ColaboradorId ApagarColabR POST
+
+
+/tipoDoacao TipoDoacaoR GET POST
+
+/tipoDoacao/perfil/#TipoDoacaoId TipoDoacaoPerfilR GET
+
+/tiposDoacao ListaTipoR GET
+
+/tipoDoacao/apagar/#TipoDoacaoId ApagarTipoR POST
+
+/tipoDoacao/editar/#TipoDoacaoId EditarTipoDoaR GET POST
+
+/usuario UsuarioR   GET POST
+/login AutR         GET POST
+/logout SairR           POST
+
+
+/admin AdminR GET

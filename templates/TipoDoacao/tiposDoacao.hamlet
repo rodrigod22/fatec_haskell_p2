@@ -1,0 +1,33 @@
+<div class="container mt-3 mb-5">
+  <div class="row justify-content-center text-center mb-5 mt-4">
+    <h2>
+      Tipo Doação 
+  <div class="mt-5">
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>       
+        <th scope="col">
+          Valor
+        <th scope="col">
+          Beneficios
+        <th scope="col">
+          Cupons  
+        <th scope="col">  
+        <th>
+        <th>  
+    <tbody> 
+      $forall Entity cid tipoDoacao <- tiposDoacao 
+        <tr>
+          <td>
+            #{tipoDoacaoValor tipoDoacao}    
+          <td>
+            #{tipoDoacaoBeneficios tipoDoacao}   
+          <td>
+            #{tipoDoacaoCupons tipoDoacao}
+          <td>
+            <a href=@{EditarTipoDoaR cid} class="btn btn-primary" >
+              Editar
+          <td>
+            <form method=post action=@{ApagarTipoR cid}>
+              <input type="submit" value="deletar"  class="btn btn-danger">
+

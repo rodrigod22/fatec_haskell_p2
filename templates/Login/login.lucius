@@ -1,0 +1,38 @@
+body{
+   background-color:#343a40;
+}
+
+h4{
+    color:#FFF;
+    text-align:center;
+    margin-top:20px;    
+}
+
+.required{
+    color:##FFF;
+    margin-top: 10px;
+}
+
+hr{   
+    color:#FFF;
+}
+
+.form-container{
+  background-color:#343a40;
+  width: 100% !important;
+}
+
+.required{
+    color:#FFF;
+    margin-top: 15px;
+}
+
+.btn{
+    background:#FFF !important;
+    color:#343a40;
+}
+
+.btn:hover{
+    background:#CCC !important;
+    color:#343a40;
+}

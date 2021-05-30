@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="align-items-center mt-4">
+    <h1>
+      Valor #{tipoDoacaoValor tipoDoacao}
+    <h2>
+      Beneficios: #{tipoDoacaoBeneficios tipoDoacao}
+    <h2>
+      Cupons: #{tipoDoacaoCupons tipoDoacao}

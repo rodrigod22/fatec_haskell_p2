@@ -34,6 +34,23 @@ getColaboradorR = do
         <input type="submit" value="Cadastrar">      
     |]
 
+-- getColaboradorR :: Handler Html
+-- getColaboradorR = do
+--   (widget, _) <- generateFormPost formColaborador
+--   msg <- getMessage
+--   defaultLayout $
+--     [whamlet|
+--       $maybe mensa <- msg
+--         <div>
+--           ^{mensa}
+--       <h1>
+--         Cadastro de Colaborador
+
+--       <form method=post action=@{ColaboradorR} >
+--         ^{widget}
+--         <input type="submit" value="Cadastrar">
+--     |]
+
 postColaboradorR :: Handler Html
 postColaboradorR = do
   ((result, _), _) <- runFormPost formColaborador
@@ -55,7 +72,7 @@ getPerfilR cid = do
   defaultLayout $ do
     addStylesheet (StaticR css_bootstrap_css)
     addStylesheet (StaticR css_estilo_css)
-    $(whamletFile "templates/Layout/header.hamlet")
+    -- $(whamletFile "templates/Layout/header.hamlet")
 
     $(whamletFile "templates/Colaborador/perfil.hamlet")
 
@@ -65,7 +82,7 @@ getListaColabR = do
   defaultLayout $ do
     addStylesheet (StaticR css_bootstrap_css)
     addStylesheet (StaticR css_estilo_css)
-    $(whamletFile "templates/Layout/header.hamlet")
+    -- $(whamletFile "templates/Layout/header.hamlet")
     $(whamletFile "templates/Colaborador/colaboradores.hamlet")
     $(whamletFile "templates/Layout/footer.hamlet")
 
