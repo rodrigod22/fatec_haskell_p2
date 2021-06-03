@@ -88,6 +88,7 @@
 	font-size: 18px;
 	color: #ffffff;
 	padding: 10px 20px;
+  font-family: 'Roboto';
 	background: -moz-linear-gradient(
 		top,
 		#ff7b00 0%,
@@ -139,6 +140,12 @@
 font-size: 1.3em;
 text-decoration: none;
 list-style: none;
+}
+
+/* FORM */
+
+.required{
+  margin-top: 10px;
 }
 
 

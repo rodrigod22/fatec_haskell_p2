@@ -1,0 +1,31 @@
+<div class="container mt-3 mb-5">
+  <div class="row justify-content-center text-center mb-5 mt-4">
+    <h2>
+      Sorteios
+  <div class="mt-5">
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>       
+        <th scope="col">
+          Dia
+        <th scope="col">
+          Premio
+        <th scope="col">  
+        <th>
+          Ações  
+    <tbody> 
+      $forall Entity cid sorteio <- sorteios 
+        <tr>
+          <td>
+            #{sorteioData sorteio}    
+          <td>
+            #{sorteioPremio sorteio}
+          <td class="d-flex justify-content-end">
+            <a href=@{EditarSorteioR cid} class="btn btn-primary mr-5" >
+              <i class="far fa-edit">  
+            <form method=post action=@{ApagarSorteioR cid}>
+              <button type="submit" class="btn btn-danger mr-5">
+                <i class="far fa-trash-alt"></i>            
+          
+           
+

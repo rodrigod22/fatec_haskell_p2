@@ -44,10 +44,12 @@ getAutR = do
     usuario <- lookupSession "_ID"
     toWidgetHead $(luciusFile "templates/Login/login.lucius")
     addStylesheet (StaticR css_bootstrap_css)
+    addStylesheet (StaticR css_all_css)
     addStylesheet (StaticR css_estilo_css)
     $(whamletFile "templates/Layout/nav.hamlet")
     $(whamletFile "templates/Login/header.hamlet")
     (formWidget widget msg AutR "Entrar")
+    $(whamletFile "templates/Layout/footer.hamlet")
 
 postAutR :: Handler Html
 postAutR = do

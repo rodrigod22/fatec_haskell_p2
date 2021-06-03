@@ -9,20 +9,16 @@
         <th scope="col">
           Nome
         <th scope="col">
-          Email
+          Doação
         <th scope="col">
-          Telefone  
-        <th scope="col">    
+          Cupons
     <tbody> 
-      $forall Entity cid colaborador <- colaboradores 
+      $forall (Entity _ colaborador, Entity _ tipoDoacao) <- colaboradores 
         <tr>
         <td>
           #{colaboradorNome colaborador}    
         <td>
-          #{colaboradorEmail colaborador}   
+          #{tipoDoacaoDescricao tipoDoacao}   
         <td>
-          #{colaboradorTelefone colaborador}
-        <td>
-          <form method=post action=@{ApagarColabR cid}>
-            <input type="submit" value="X">
-
+          #{tipoDoacaoCupons tipoDoacao}
+      

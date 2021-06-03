@@ -9,8 +9,6 @@
         <th scope="col">
           Valor
         <th scope="col">
-          Beneficios
-        <th scope="col">
           Cupons  
         <th scope="col">  
         <th>
@@ -19,15 +17,14 @@
       $forall Entity cid tipoDoacao <- tiposDoacao 
         <tr>
           <td>
-            #{tipoDoacaoValor tipoDoacao}    
-          <td>
-            #{tipoDoacaoBeneficios tipoDoacao}   
+            #{tipoDoacaoDescricao tipoDoacao}    
           <td>
             #{tipoDoacaoCupons tipoDoacao}
           <td>
             <a href=@{EditarTipoDoaR cid} class="btn btn-primary" >
-              Editar
+              <i class="far fa-edit">  
           <td>
             <form method=post action=@{ApagarTipoR cid}>
-              <input type="submit" value="deletar"  class="btn btn-danger">
+              <button type="submit" class="btn btn-danger mr-5">
+                <i class="far fa-trash-alt"></i>   
 

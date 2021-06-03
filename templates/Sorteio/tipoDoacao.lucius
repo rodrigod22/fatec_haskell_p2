@@ -1,0 +1,14 @@
+h4{
+    color:#000;
+    text-align:center;
+    margin-top:20px;    
+}
+
+.required{
+    color:#000;
+    margin-top: 10px;
+}
+
+hr{   
+    margin-bottom:25px !important;
+}

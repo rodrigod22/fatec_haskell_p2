@@ -1,12 +1,12 @@
 Colaborador 
     nome Text
-    email Text
-    telefone Text
+    email         Text  
+    telefone      Text
+    tipoDoacaoId        TipoDoacaoId
     deriving Show
 
-TipoDoacao 
-    valor Double
-    beneficios Text
+TipoDoacao   
+    descricao Text
     cupons Int   
     deriving Show
 
@@ -15,5 +15,10 @@ Usuario
     senha Text
     UniqueEmailIx email
     deriving Show 
+
+Sorteio
+    data Text
+    premio Text
+    deriving Show     
 
         

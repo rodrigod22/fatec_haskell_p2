@@ -9,16 +9,9 @@
 
 /cross CrossR GET 
 
-/doacao DoacaoR GET
-
 /colaborador ColaboradorR GET POST
 
-/colaborador/perfil/#ColaboradorId PerfilR GET
-
 /colaboradores ListaColabR GET
-
-/colaborador/apagar/#ColaboradorId ApagarColabR POST
-
 
 /tipoDoacao TipoDoacaoR GET POST
 
@@ -29,6 +22,14 @@
 /tipoDoacao/apagar/#TipoDoacaoId ApagarTipoR POST
 
 /tipoDoacao/editar/#TipoDoacaoId EditarTipoDoaR GET POST
+
+/sorteio SorteioR GET POST
+
+/sorteios ListaSorteioR GET
+
+/sorteio/apagar/#SorteioId ApagarSorteioR POST
+
+/sorteio/editar/#SorteioId EditarSorteioR GET POST
 
 /usuario UsuarioR   GET POST
 /login AutR         GET POST

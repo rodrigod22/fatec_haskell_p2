@@ -39,6 +39,7 @@ import Handler.Doacao
 import Handler.Foto
 import Handler.Home
 import Handler.Login
+import Handler.Sorteio
 import Handler.TipoDoacao
 import Handler.Usuario
 import Import

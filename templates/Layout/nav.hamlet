@@ -7,26 +7,45 @@
         &#9776
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href=@{HomeR}>
-          Home <span class="sr-only">(Página atual)
-        <a class="nav-item nav-link" href=@{FotoR}>
-          Fotos
+        <a class="nav-item nav-link active" href=@{HomeR}>  
+          <i class="fas fa-home mr-1">         
+          Home          
+        <a class="nav-item nav-link" href=@{FotoR}>    
+          <i class="fas fa-camera mr-1">     
+          Fotos       
         <a class="nav-item nav-link" href=@{CrossR}>
-          Crowdfunding
-        <a class="nav-item nav-link " href=@{DoacaoR}>
-          Colaboradores       
+          <i class="fas fa-hand-holding-usd mr-1">  
+          Crowdfunding          
+        <a class="nav-item nav-link " href=@{ListaColabR}>
+          <i class="fas fa-users mr-1">
+          Colaboradores   
         $maybe email <- usuario   
           <div class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-users-cog mr-1">
               Administrativo       
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href=@{TipoDoacaoR}>
-                Cadastro Tipo Doação
+                <i class="fas fa-plus-circle mr-1"> 
+                Cadastro Tipo Doação                
               <a class="dropdown-item" href="@{ListaTipoR}">
-                Lista Tipo Doação
-          <form action=@{SairR} method=post>
-            <input class="btn-sair" type="submit" value="Sair">
+                <div>
+                  <i class="fas fa-clipboard-list mr-1">
+                  Lista Tipo Doação 
+              <a class="dropdown-item" href=@{SorteioR}>
+                <i class="fas fa-plus-circle mr-1"> 
+                Cadastro Sorteio             
+              <a class="dropdown-item" href="@{ListaSorteioR}">
+                <div>
+                  <i class="fas fa-clipboard-list mr-1">
+                  Lista Sorteio                             
+          <form action=@{SairR} method=post>            
+            <button class="btn-sair" type="submit">
+              <i class="fas fa-sign-out-alt mr-2">
+              Sair
                          
         $nothing
           <a class="nav-item nav-link " href=@{AutR}>
+            <i class="fas fa-lock mr-1">
             Login 
+            
