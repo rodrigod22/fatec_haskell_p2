@@ -35,7 +35,6 @@ import Database.Persist.Postgresql
 import Handler.Colaborador
 import Handler.Common
 import Handler.Cross
-import Handler.Doacao
 import Handler.Foto
 import Handler.Home
 import Handler.Login
